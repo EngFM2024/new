@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+:root {
+    --bg-color:#3E505B;
+    --span-color:#26413C;
+}
+body{
+    background-color: var(--bg-color);
+    color: white;
+}
+
+
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #26413C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30px;
+    border-radius: 10px;
+
+}
+
+img{
+    width: 5%;
+    height: 5%;
+   
+}
+
+
+#password{
+    width: 70%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.804);
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+    transform: scale(1.2);
+   
+}
+
+
+#password::placeholder{
+   font-size: 15px;
+   padding-right: 20px;
+}
+
+
+span{
+    color: #00ff2a; 
+    font-size: 30px;
+}
+
+
+img:hover {
+    cursor: pointer;
+  background-color: rgb(246, 246, 246);
+  transition: 0.1s;
+}
